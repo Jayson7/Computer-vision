@@ -4,6 +4,10 @@ import mediapipe as mp
 
 import time 
 
+mpHands = mp.solutions.hands
+
+hands = mpHands.Hands()
+
 cap = cv2.VideoCapture(0)
 
 while True:
